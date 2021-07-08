@@ -1,0 +1,7 @@
+version: '3.9'
+services:
+  golang:
+    build:
+      context: golang
+    volumes:
+      - ./golang/:/app/
